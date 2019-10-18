@@ -23,7 +23,7 @@ class DigitalOceanSpacesServiceProvider extends ServiceProvider{
                     'key'    => $config['key'],
                     'secret' => $config['secret'],
                 ],
-                'endpoint' => 'https://' . $config['region'] . '.digitaloceanspaces.com',
+                'endpoint' => 'https://' . $config['bucket'] . '.' . $config['region'] . '.digitaloceanspaces.com',
             ]);
 
             //create adapter and return the filesystem var
