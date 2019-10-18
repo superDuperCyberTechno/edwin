@@ -1,5 +1,5 @@
 # edwin
-### AKA _Digital Ocean Spaces File System Driver for Laravel_
+#### AKA _Digital Ocean Spaces File System Driver for Laravel_
 A simple extension that adds the [Digital Ocean Spaces](https://www.digitalocean.com/products/spaces/) as a file system extension to Laravel.
 
 Just install via Composer:
