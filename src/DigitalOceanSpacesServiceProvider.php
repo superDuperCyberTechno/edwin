@@ -23,6 +23,7 @@ class DigitalOceanSpacesServiceProvider extends ServiceProvider{
                     'key'    => $config['key'],
                     'secret' => $config['secret'],
                 ],
+                'version' => 'latest',
                 'region' => $config['region'],
                 'endpoint' => 'https://' . $config['bucket'] . '.' . $config['region'] . '.digitaloceanspaces.com',
             ]);
